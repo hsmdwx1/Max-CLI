@@ -1,7 +1,7 @@
-local db = dofile 'lib/redis.lua'
+local db = dofile 'libs/redis.lua'
 local tdcli = dofile 'bot/utlis.lua'
 local serp = require 'serpent'.block
-local JSON = dofile 'lib/JSON.lua'
+local JSON = dofile 'libs/JSON.lua'
 local _config = dofile 'data/td_config.lua'
 local _color = require 'term.colors'
 require('./bot/utlis')
