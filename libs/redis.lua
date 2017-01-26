@@ -1,4 +1,4 @@
-local Redis = (loadfile "./lib/lua-redis.lua")()
+local Redis = (loadfile "./libs/lua-redis.lua")()
 --local FakeRedis = (loadfile "./tg/max/fakeredis.lua")()
 
 local params = {
