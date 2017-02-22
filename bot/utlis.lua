@@ -21,7 +21,7 @@
 
 -- Main table
 local M = {}
-local db = dofile 'lib/redis.lua' 
+local db = dofile 'libs/redis.lua' 
 -- It's do nothing but suppress "lua: attempt to call a nil value" warning
 function dl_cb(arg, data)
 end
